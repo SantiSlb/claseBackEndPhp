@@ -14,11 +14,13 @@ body, html {
 
 <?php 
 
-echo "<h1>Variables en PHP</h1> <br >Uso y declaracion de 'Variables'";
+echo "<h1>Variables en PHP</h1><hr><br> <h2>Uso y declaracion de Variables</h2> <br>";
 
 
-// En PHP, se pueden declarar variables utilizando el signo "$" seguido del nombre de la variable.
-// El nombre de la variable debe comenzar con una letra o con un (_), seguido de letras, numeros o guiones bajos
+echo "En PHP, se pueden declarar variables utilizando el signo ($) 
+    seguido del nombre de la variable. El nombre de la variable 
+    debe comenzar con una letra o con un (_), seguido de letras, 
+    numeros o guiones bajos";
 
 $nombre = "Pepe"; // string
 $edad = 30; //entero
